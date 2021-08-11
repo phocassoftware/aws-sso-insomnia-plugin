@@ -1,0 +1,50 @@
+{
+  "name": "insomnia-plugin-aws-sso",
+  "version": "0.0.2",
+  "main": "dist/plugin.js",
+  "types": "dist/plugin.d.ts",
+  "description": "Reads from SSO populated AWS credentials for signing IAM V4 secured endpoints",
+  "insomnia": {
+    "name": "awsSSO",
+    "displayName": "AWS SSO",
+    "description": "Reads from SSO populated AWS credentials for signing IAM V4 secured endpoints",
+    "images": {
+      "icon": "icon.png",
+      "cover": "icon.png"
+    },
+    "publisher": {
+      "name": "Phocas Software",
+      "icon": "icon.png"
+    },
+    "applications": {
+      "designer": "*",
+      "core": "*",
+      "cli": "*"
+    }
+  },
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phocassoftware/aws-sso-insomnia-plugin.git"
+  },
+  "keywords": [
+    "AWS",
+    "SSO",
+    "Insomnia"
+  ],
+  "author": "Phocas",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/phocassoftware/aws-sso-insomnia-plugin/issues"
+  },
+  "homepage": "https://github.com/phocassoftware/aws-sso-insomnia-plugin#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@aws-sdk/credential-provider-sso": "^3.25.0"
+  }
+}
