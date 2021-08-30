@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-aws-sso",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/plugin.js",
   "types": "dist/plugin.d.ts",
   "description": "Reads from SSO populated AWS credentials for signing IAM V4 secured endpoints",

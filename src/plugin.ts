@@ -8,10 +8,43 @@ enum CredentialPropertyEnum {
 }
 
 type CredentialProperty = keyof typeof CredentialPropertyEnum;
+type ProfileDetails = {
+    name : string,
+    provider : CredentialProvider;
+    credentials : Credentials;
+}
 
-let currentProfile : string;
-let provider : CredentialProvider;
-let credentials : Credentials;
+let profiles = new Map<string, ProfileDetails>();
+
+async function getProfileDetails(profile: string) {
+    let details = profiles.get(profile);
+    if (details === undefined) {
+        // Only create the SSO Provider once per profile
+        let provider = fromSSO({profile: profile});
+        details = {
+            name : profile,
+            provider : provider,
+            credentials : await provider()
+        }
+        profiles.set(profile, details);
+    }
+    return details;
+}
+
+async function getFreshCredentials(details: ProfileDetails) {
+    if (details.credentials &&
+        details.credentials.expiration &&
+        details.credentials.expiration < new Date()) {
+        // If we have expired credentials, refresh
+        details = {
+            name : details.name,
+            provider : details.provider,
+            credentials : await details.provider()
+        };
+        profiles.set(details.name, details);
+    }
+    return details.credentials;
+}
 
 export const templateTags = [
     {
@@ -47,18 +80,8 @@ export const templateTags = [
             }
         ],
         async run(_context: object, profile: string, property: CredentialProperty) {
-            if (currentProfile !== profile) {
-                // Update the current profile and provider only when profile has changed
-                currentProfile = profile;
-                provider = fromSSO({ profile: profile });
-                credentials = await provider();
-            }
-            if (credentials &&
-                credentials.expiration &&
-                credentials.expiration < new Date()) {
-                // If we have expired credentials, refresh
-                credentials = await provider();
-            }
+            let details = await getProfileDetails(profile);
+            let credentials = await getFreshCredentials(details);
             return credentials[property];
         },
     }
