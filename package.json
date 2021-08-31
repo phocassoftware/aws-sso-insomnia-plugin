@@ -24,7 +24,8 @@
   },
   "scripts": {
     "prepublish": "tsc",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,9 @@
   },
   "homepage": "https://github.com/phocassoftware/aws-sso-insomnia-plugin#readme",
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.2",
     "prettier": "2.3.2",
     "typescript": "^4.3.5"
   },

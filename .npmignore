@@ -3,3 +3,5 @@
 src/**
 tsconfig.json
 .prettier*
+commitlint*
+.husky
