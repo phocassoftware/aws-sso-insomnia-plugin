@@ -26,11 +26,13 @@
     "prepublish": "tsc",
     "build": "tsc",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release-dry": "semantic-release --dry-run",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phocassoftware/aws-sso-insomnia-plugin.git"
+    "url": "https://github.com/phocassoftware/aws-sso-insomnia-plugin.git"
   },
   "keywords": [
     "AWS",
@@ -58,5 +60,13 @@
   },
   "dependencies": {
     "@aws-sdk/credential-provider-sso": "^3.25.0"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
