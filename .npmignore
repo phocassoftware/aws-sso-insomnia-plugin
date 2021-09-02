@@ -5,3 +5,6 @@ tsconfig.json
 .prettier*
 commitlint*
 .husky
+.github
+jest*
+test
