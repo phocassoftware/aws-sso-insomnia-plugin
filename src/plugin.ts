@@ -1,51 +1,23 @@
 import { fromSSO } from "@aws-sdk/credential-provider-sso";
-import { CredentialProvider, Credentials } from "@aws-sdk/types";
+import { SsoCredentialsCache } from "./sso-credentials-cache";
 
-enum CredentialPropertyEnum {
+const ssoCredentialsCache = new SsoCredentialsCache(fromSSO);
+
+export enum CredentialPropertyEnum {
   accessKeyId,
   secretAccessKey,
   sessionToken,
 }
 
-type CredentialProperty = keyof typeof CredentialPropertyEnum;
-type ProfileDetails = {
-  name: string;
-  provider: CredentialProvider;
-  credentials: Credentials;
-};
+export type CredentialProperty = keyof typeof CredentialPropertyEnum;
 
-let profiles = new Map<string, ProfileDetails>();
-
-async function getProfileDetails(profile: string) {
-  let details = profiles.get(profile);
-  if (details === undefined) {
-    // Only create the SSO Provider once per profile
-    let provider = fromSSO({ profile: profile });
-    details = {
-      name: profile,
-      provider: provider,
-      credentials: await provider(),
-    };
-    profiles.set(profile, details);
-  }
-  return details;
-}
-
-async function getFreshCredentials(details: ProfileDetails) {
-  if (
-    details.credentials &&
-    details.credentials.expiration &&
-    details.credentials.expiration < new Date()
-  ) {
-    // If we have expired credentials, refresh
-    details = {
-      name: details.name,
-      provider: details.provider,
-      credentials: await details.provider(),
-    };
-    profiles.set(details.name, details);
-  }
-  return details.credentials;
+export async function fetchCredentialsByProfile(
+  cache: SsoCredentialsCache,
+  profile: string,
+  property: CredentialProperty
+) {
+  let credentials = await cache.get(profile);
+  return credentials[property];
 }
 
 export const templateTags = [
@@ -84,9 +56,11 @@ export const templateTags = [
       },
     ],
     async run(_context: object, profile: string, property: CredentialProperty) {
-      let details = await getProfileDetails(profile);
-      let credentials = await getFreshCredentials(details);
-      return credentials[property];
+      return await fetchCredentialsByProfile(
+        ssoCredentialsCache,
+        profile,
+        property
+      );
     },
   },
 ];
