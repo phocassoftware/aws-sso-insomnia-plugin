@@ -9,12 +9,12 @@
     "displayName": "AWS SSO",
     "description": "Reads from SSO populated AWS credentials for signing IAM V4 secured endpoints",
     "images": {
-      "icon": "icon.png",
-      "cover": "icon.png"
+      "icon": "images/icons/phocasbot-avatar.svg",
+      "cover": "images/icons/phocas-engineering-short.svg"
     },
     "publisher": {
-      "name": "Phocas Software",
-      "icon": "icon.png"
+      "name": "Phocas Engineering",
+      "icon": "https://github.com/phocassoftware/aws-sso-insomnia-plugin/tree/main/images/icons/phocas-engineering-full.svg"
     },
     "applications": {
       "designer": "*",
@@ -40,7 +40,7 @@
     "Insomnia"
   ],
   "author": "Phocas",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Unlicense (see LICENSE)",
   "bugs": {
     "url": "https://github.com/phocassoftware/aws-sso-insomnia-plugin/issues"
   },
