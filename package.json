@@ -40,7 +40,7 @@
     "Insomnia"
   ],
   "author": "Phocas",
-  "license": "Unlicense (see LICENSE)",
+  "license": "MIT (see LICENSE)",
   "bugs": {
     "url": "https://github.com/phocassoftware/aws-sso-insomnia-plugin/issues"
   },
