@@ -20,7 +20,7 @@ The plugin is to be used from within the `ACCESS KEY ID`, `SECRET ACCESS KEY`, a
 
 Within a selected field, type `aws` and wait for autocomplete to provide variable suggestions. You should be able to select `AWS SSO` to fill in the field.
 
-![Field Auto Complete](https://github.com/phocassoftware/aws-sso-insomnia-plugin/blob/main/images/readme/field-autocomplete.png)
+![Field Auto Complete](https://raw.githubusercontent.com/phocassoftware/aws-sso-insomnia-plugin/main/images/readme/field-autocomplete.png)
 
 Once you have populated a field, you can edit it by clicking on it. You need to select both a profile and an item for each tag.
 
@@ -30,4 +30,4 @@ You can hardcode the profile per field if you wish, but it is much more ergonomi
 
 Once configured you shouldn't need to adjust your individual fields. If you have used an environment variable for the profile, changing it will propagate through all of your requests configured to use this plugin.
 
-![Tag Editing](https://github.com/phocassoftware/aws-sso-insomnia-plugin/blob/main/images/readme/tag-editing.png)
+![Tag Editing](https://raw.githubusercontent.com/phocassoftware/aws-sso-insomnia-plugin/main/images/readme/tag-editing.png)
