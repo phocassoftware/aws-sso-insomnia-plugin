@@ -14,7 +14,7 @@
     },
     "publisher": {
       "name": "Phocas Engineering",
-      "icon": "https://github.com/phocassoftware/aws-sso-insomnia-plugin/tree/main/images/icons/phocas-engineering-full.svg"
+      "icon": "https://raw.githubusercontent.com/phocassoftware/aws-sso-insomnia-plugin/main/images/icons/phocas-engineering-full.svg"
     },
     "applications": {
       "designer": "*",
