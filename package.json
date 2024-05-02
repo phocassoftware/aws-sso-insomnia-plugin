@@ -68,5 +68,9 @@
     "branches": [
       "main"
     ]
+  },
+  "engines": {
+    "node": ">=v20",
+    "npm": ">=10"
   }
 }
