@@ -1,4 +1,6 @@
-import { mock } from "jest-mock-extended";
+import { describe, expect, test } from "vitest";
+import { mock } from "vitest-mock-extended";
+
 import { fetchCredentialsByProfile } from "../dist/plugin";
 import { SsoCredentialsCache } from "../dist/sso-credentials-cache";
 

@@ -24,8 +24,9 @@
   },
   "scripts": {
     "prepublish": "tsc",
-    "build": "tsc",
-    "test": "jest",
+    "build": "tsc -p tsconfig.build.json",
+    "check:types": "tsc",
+    "test": "vitest",
     "prepare": "husky install",
     "semantic-release-dry": "semantic-release --dry-run",
     "semantic-release": "semantic-release"
@@ -48,15 +49,13 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@types/jest": "^27.0.1",
     "husky": "^7.0.2",
-    "jest": "^27.1.0",
-    "jest-mock-extended": "^2.0.2-beta2",
     "prettier": "2.3.2",
     "pretty-quick": "^3.1.1",
     "semantic-release": "^19.0.2",
-    "ts-jest": "^27.0.5",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "vitest": "^1.5.3",
+    "vitest-mock-extended": "^1.3.1"
   },
   "dependencies": {
     "@aws-sdk/credential-provider-sso": "^3.25.0"
