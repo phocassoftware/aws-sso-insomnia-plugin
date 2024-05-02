@@ -1,19 +1,21 @@
-import { any, mock, mockFn } from "jest-mock-extended";
 import { CredentialProvider, Credentials } from "@aws-sdk/types";
+import { Mock, describe, expect, test, vi } from "vitest";
+import { any, mock, mockFn } from "vitest-mock-extended";
+
 import {
   SsoCredentialsCache,
   CredentialProviderFactory,
 } from "../src/sso-credentials-cache";
 
 interface MockCredentials {
-  readonly accessKeyId: jest.Mock<string, []>;
-  readonly secretAccessKey: jest.Mock<string, []>;
-  readonly sessionToken: jest.Mock<string | undefined, []>;
-  readonly expiration: jest.Mock<Date | undefined, []>;
+  readonly accessKeyId: Mock<[], string>;
+  readonly secretAccessKey: Mock<[], string>;
+  readonly sessionToken: Mock<[], string | undefined>;
+  readonly expiration: Mock<[], Date | undefined>;
 }
 
 function mockProperty<T>(base: object, property: keyof Credentials) {
-  const getter = jest.fn<T, []>();
+  const getter = vi.fn<[], T>();
   Object.defineProperty(base, property, { get: getter });
   return getter;
 }
