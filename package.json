@@ -52,13 +52,13 @@
     "husky": "^9.1.6",
     "prettier": "3.3.3",
     "pretty-quick": "^4.0.0",
-    "semantic-release": "^24.1.2",
-    "typescript": "^5.6.2",
-    "vitest": "^2.1.1",
+    "semantic-release": "^24.2.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4",
     "vitest-mock-extended": "^2.0.2"
   },
   "dependencies": {
-    "@aws-sdk/credential-provider-sso": "^3.658.1"
+    "@aws-sdk/credential-provider-sso": "^3.682.0"
   },
   "publishConfig": {
     "access": "public"
