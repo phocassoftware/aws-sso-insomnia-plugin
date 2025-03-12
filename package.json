@@ -55,7 +55,7 @@
     "semantic-release": "^24.2.3",
     "typescript": "^5.8.2",
     "vitest": "^3.0.8",
-    "vitest-mock-extended": "^2.0.2"
+    "vitest-mock-extended": "^3.0.1"
   },
   "dependencies": {
     "@aws-sdk/credential-provider-sso": "^3.758.0"
