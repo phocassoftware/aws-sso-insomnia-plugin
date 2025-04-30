@@ -53,12 +53,12 @@
     "prettier": "3.5.3",
     "pretty-quick": "^4.1.1",
     "semantic-release": "^24.2.3",
-    "typescript": "^5.8.2",
-    "vitest": "^3.1.1",
-    "vitest-mock-extended": "^3.0.1"
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2",
+    "vitest-mock-extended": "^3.1.0"
   },
   "dependencies": {
-    "@aws-sdk/credential-provider-sso": "^3.777.0"
+    "@aws-sdk/credential-provider-sso": "^3.799.0"
   },
   "publishConfig": {
     "access": "public"
