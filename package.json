@@ -47,18 +47,18 @@
   },
   "homepage": "https://github.com/phocassoftware/aws-sso-insomnia-plugin#readme",
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "husky": "^9.1.7",
     "prettier": "3.5.3",
-    "pretty-quick": "^4.1.1",
-    "semantic-release": "^24.2.3",
+    "pretty-quick": "^4.2.2",
+    "semantic-release": "^24.2.5",
     "typescript": "^5.8.3",
-    "vitest": "^3.1.2",
+    "vitest": "^3.2.2",
     "vitest-mock-extended": "^3.1.0"
   },
   "dependencies": {
-    "@aws-sdk/credential-provider-sso": "^3.799.0"
+    "@aws-sdk/credential-provider-sso": "^3.826.0"
   },
   "publishConfig": {
     "access": "public"
