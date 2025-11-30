@@ -50,7 +50,7 @@
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "husky": "^9.1.7",
-    "prettier": "3.6.2",
+    "prettier": "3.7.3",
     "pretty-quick": "^4.2.2",
     "semantic-release": "^24.2.9",
     "typescript": "^5.9.3",
@@ -58,7 +58,7 @@
     "vitest-mock-extended": "^3.1.0"
   },
   "dependencies": {
-    "@aws-sdk/credential-provider-sso": "^3.922.0"
+    "@aws-sdk/credential-provider-sso": "^3.940.0"
   },
   "publishConfig": {
     "access": "public"
