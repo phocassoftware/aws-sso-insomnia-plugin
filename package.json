@@ -54,11 +54,11 @@
     "pretty-quick": "^4.2.2",
     "semantic-release": "^25.0.2",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.15",
+    "vitest": "^4.0.16",
     "vitest-mock-extended": "^3.1.0"
   },
   "dependencies": {
-    "@aws-sdk/credential-provider-sso": "^3.948.0"
+    "@aws-sdk/credential-provider-sso": "^3.953.0"
   },
   "publishConfig": {
     "access": "public"
