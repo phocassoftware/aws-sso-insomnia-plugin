@@ -58,7 +58,8 @@
     "vitest-mock-extended": "^3.1.0"
   },
   "dependencies": {
-    "@aws-sdk/credential-provider-sso": "^3.972.21"
+    "@aws-sdk/credential-provider-sso": "^3.972.21",
+    "@aws-sdk/types": "^3.973.12"
   },
   "publishConfig": {
     "access": "public"
@@ -70,6 +71,13 @@
   },
   "engines": {
     "node": ">=v20",
-    "npm": ">=10"
+    "pnpm": ">=11"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=11",
+      "onFail": "error"
+    }
   }
 }
