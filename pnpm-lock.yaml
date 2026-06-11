@@ -7,52 +7,52 @@ importers:
     configDependencies: {}
     packageManagerDependencies:
       '@pnpm/exe':
-        specifier: 11.5.2
-        version: 11.5.2
+        specifier: 11.5.3
+        version: 11.5.3
       pnpm:
-        specifier: 11.5.2
-        version: 11.5.2
+        specifier: 11.5.3
+        version: 11.5.3
 
 packages:
 
-  '@pnpm/exe@11.5.2':
-    resolution: {integrity: sha512-4UFnP2rhNu1xjAQ+I1GdIUUEtCJuTYJlbpiWSFA4POAID3Lpt+2vrjImWO7eOJ7iCY3vpc4TFe2IW3sAolW4Kg==}
+  '@pnpm/exe@11.5.3':
+    resolution: {integrity: sha512-eb8921VsrlLhIf6z/6lopFZ25MH60qgybvPBMHH17s8AAcfh5ipBAHBpxZ3PKNNpJ7v8aZZdZkccDBjwfsUjsA==}
     hasBin: true
 
-  '@pnpm/linux-arm64@11.5.2':
-    resolution: {integrity: sha512-MbJySnu2y9cCBqlODLjUlZ87JnRC3Inq40rvGHWJSrSQ0PnuHeSw2NDMnLI8Hf9hCY+ooussRc5iiR4IAkjUvg==}
+  '@pnpm/linux-arm64@11.5.3':
+    resolution: {integrity: sha512-3UebCq+4osz5/p6GNfH8iEepCUchGDS778ShcIHkJioCUV/QnmLI3IT0MYOymwc+p5/+ECZlUYEfON2FH2seOg==}
     cpu: [arm64]
     os: [linux]
 
-  '@pnpm/linux-x64@11.5.2':
-    resolution: {integrity: sha512-g6g2BGpQA47wUACy6B1MdeSHPtnl6x4AeCg0IOWQ7xXorEtC+VRiSHhLpA5kByFGeSwyYh/nLc7mLul5DAaELw==}
+  '@pnpm/linux-x64@11.5.3':
+    resolution: {integrity: sha512-fqAhjHjTcu16uryQb1JSbvGThaYp32vuu52teL4FhBaXC1fsgcqWoOEQgFnGfJKXAQO8jEKDb/1BiScQFV+O9g==}
     cpu: [x64]
     os: [linux]
 
-  '@pnpm/linuxstatic-arm64@11.5.2':
-    resolution: {integrity: sha512-xTxs9BLxYW39BPNGnmvYCUBnMPWm4mzmzujmdYbpRxDnBXrx55qPR5K/3LSohX7VrmsdDrYxuH6AmG1AaOlIfA==}
+  '@pnpm/linuxstatic-arm64@11.5.3':
+    resolution: {integrity: sha512-z+bw8dIFhFL4Ou82Emjmdd6YndIg2R/KSbx+b5quD9v44V3cZ6OBMdddshCxzq/YEWsB6lCs/86ThbmWojJ7Vw==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@pnpm/linuxstatic-x64@11.5.2':
-    resolution: {integrity: sha512-RGmmc/SoGLD90gmOHcU85UEKNoNRstLvizli4wzDASmETz/VeqJOqU5nD1YBgjzcP72sUMS352dh4bmzTfKyvQ==}
+  '@pnpm/linuxstatic-x64@11.5.3':
+    resolution: {integrity: sha512-05FvuSx6G1c+ZNs4j/TQldy09YFkfXkvq+MgFplEFIUguLShQi88gkvBBSt1v2RiIPdnjn/kHN7FmyL++RiXZw==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@pnpm/macos-arm64@11.5.2':
-    resolution: {integrity: sha512-gW3A2jRlC3SJRw8qX2SAzjMIu9o98daTSqCKzeeYcjF/uEbtbz3dn4HqYrYffBnenKbc4hsgZQmNOHAvUKIlSg==}
+  '@pnpm/macos-arm64@11.5.3':
+    resolution: {integrity: sha512-nyQs/0yUZAHszkEGdDvOz964aPPzrMw+PGh6yIEYNMEzZfxSLEzD4No1qHj7AOplYmSB9tRazHp7o6einjE6pA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@pnpm/win-arm64@11.5.2':
-    resolution: {integrity: sha512-+VJCDoH/pRzLXBikwjvxgAnGfQufT8EALBX8cfSmrwD40JABUZvgPtjBjde7OwEoK/XwtlH8w+ZceFV0K3/YHQ==}
+  '@pnpm/win-arm64@11.5.3':
+    resolution: {integrity: sha512-7DOlug2CLCuRdWTar5ljDQNpvLLphJXqb3nDw2Vx+9vUhHjbfJRFrjZ+fYj5APoUUZv1esMaiAql4dNEqYVo1Q==}
     cpu: [arm64]
     os: [win32]
 
-  '@pnpm/win-x64@11.5.2':
-    resolution: {integrity: sha512-zgglREh75RbFgV/E0tNRS03ElX+hJOV43KRSSeaboxtj3ei1rrguxOgOCXUs/GsizoHVsuD+qXGABE4Kc4GMCg==}
+  '@pnpm/win-x64@11.5.3':
+    resolution: {integrity: sha512-hnIv1nVlTjEr7H415bVEfNVH65sfHClvuWd35fkR1WLVut+dHBSKqQNeDd4auJCeFtiSSVvIingsNS63abAWUQ==}
     cpu: [x64]
     os: [win32]
 
@@ -116,45 +116,45 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  pnpm@11.5.2:
-    resolution: {integrity: sha512-ccYx44IGbvwlYl1c8CkHXeB7YbN/bic1D72Esb2lhkyMGWetwoB3a0XDCnFcA1mjvgj+9C1bsJ4rmQKZeWkpFg==}
+  pnpm@11.5.3:
+    resolution: {integrity: sha512-esHJGTQcITo03A0Cr7cUPFwmrCbujEeC3uqCG4rGTSE0oIH9iUHa5uKbu0j1jfwrf7zuzMB8svCdIZ00Kklp7Q==}
     engines: {node: '>=22.13'}
     hasBin: true
 
 snapshots:
 
-  '@pnpm/exe@11.5.2':
+  '@pnpm/exe@11.5.3':
     dependencies:
       '@reflink/reflink': 0.1.19
       detect-libc: 2.1.2
     optionalDependencies:
-      '@pnpm/linux-arm64': 11.5.2
-      '@pnpm/linux-x64': 11.5.2
-      '@pnpm/linuxstatic-arm64': 11.5.2
-      '@pnpm/linuxstatic-x64': 11.5.2
-      '@pnpm/macos-arm64': 11.5.2
-      '@pnpm/win-arm64': 11.5.2
-      '@pnpm/win-x64': 11.5.2
+      '@pnpm/linux-arm64': 11.5.3
+      '@pnpm/linux-x64': 11.5.3
+      '@pnpm/linuxstatic-arm64': 11.5.3
+      '@pnpm/linuxstatic-x64': 11.5.3
+      '@pnpm/macos-arm64': 11.5.3
+      '@pnpm/win-arm64': 11.5.3
+      '@pnpm/win-x64': 11.5.3
 
-  '@pnpm/linux-arm64@11.5.2':
+  '@pnpm/linux-arm64@11.5.3':
     optional: true
 
-  '@pnpm/linux-x64@11.5.2':
+  '@pnpm/linux-x64@11.5.3':
     optional: true
 
-  '@pnpm/linuxstatic-arm64@11.5.2':
+  '@pnpm/linuxstatic-arm64@11.5.3':
     optional: true
 
-  '@pnpm/linuxstatic-x64@11.5.2':
+  '@pnpm/linuxstatic-x64@11.5.3':
     optional: true
 
-  '@pnpm/macos-arm64@11.5.2':
+  '@pnpm/macos-arm64@11.5.3':
     optional: true
 
-  '@pnpm/win-arm64@11.5.2':
+  '@pnpm/win-arm64@11.5.3':
     optional: true
 
-  '@pnpm/win-x64@11.5.2':
+  '@pnpm/win-x64@11.5.3':
     optional: true
 
   '@reflink/reflink-darwin-arm64@0.1.19':
@@ -194,7 +194,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  pnpm@11.5.2: {}
+  pnpm@11.5.3: {}
 
 ---
 lockfileVersion: '9.0'
@@ -209,7 +209,7 @@ importers:
     dependencies:
       '@aws-sdk/credential-provider-sso':
         specifier: ^3.972.21
-        version: 3.972.50
+        version: 3.972.51
       '@aws-sdk/types':
         specifier: ^3.973.12
         version: 3.973.12
@@ -231,7 +231,7 @@ importers:
         version: 4.2.2(prettier@3.8.1)
       semantic-release:
         specifier: ^25.0.3
-        version: 25.0.3(typescript@5.9.3)
+        version: 25.0.5(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -273,24 +273,24 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/core@3.974.19':
-    resolution: {integrity: sha512-SMNfLCU/41xxfFaC5Slwy8V/f1FRhakvyeeMeDeIxqNF0DzhDlXsXnJDELJYke1EtnJbfzfilW7tvulGfxMY6A==}
+  '@aws-sdk/core@3.974.20':
+    resolution: {integrity: sha512-7sDi2B2N3mc3nf1nz6FyEx/FCrJ1N1QnBmraHHQNabFaeAh2IaOOLml48/rHOD1bICHgTRkbBgNTvUzEr5Z35g==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-sso@3.972.50':
-    resolution: {integrity: sha512-pQ9ww4G53gwHlon1NMz25JhaBo13E9Jv+VVgjh39C/yzvby+xhSnEOb+VDYShKNCh1TbttMF/5CFCHkZrIqOcA==}
+  '@aws-sdk/credential-provider-sso@3.972.51':
+    resolution: {integrity: sha512-60qhpQcSDIKIr0AuBlmJezKX0b5nbJPCINiR49N9yJXrEI5tTRwsXVBr0IdSvvsNJyqgiINyoBd++Ed0yvggbw==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/nested-clients@3.997.18':
-    resolution: {integrity: sha512-xBWrodBvW5SHCZV11UZUJG0pSHkLCEREIBoNbff1C1sacOUCmxJnTCPE80sCGLCtqgXg98I2MQJe2z28tcZSsw==}
+  '@aws-sdk/nested-clients@3.997.19':
+    resolution: {integrity: sha512-P2Otgf15GBJMKzG6j5Ddf7w+Kz6z2jvesMy874TD3jlMfDWNK7clJeUd7hgigdeVOotjoUP4emcTWVdS9sfZDw==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/signature-v4-multi-region@3.996.33':
     resolution: {integrity: sha512-Hn0RThJEbyOZWV2PV9Z4YD3nitGPxybmyU17dSe9b61WOBcKnqS0WTtM3c1zyZq9WnGiyrfi/i+UBPUk7cM8Ug==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/token-providers@3.1064.0':
-    resolution: {integrity: sha512-sjI+iA4JtgeckBgKwPQF7KzWillRoNDmtpiM0TRa0syiAKFHKUSf84kPXSO3+gA7aMMSxrcxzOM2oPSecaJvEA==}
+  '@aws-sdk/token-providers@3.1065.0':
+    resolution: {integrity: sha512-qdHQntq82gMqG6Tf8xrgmhJxacaYkxW4PEeDg/ISMVJ84EWe7iD6JyCTgbyox3uNDH6vqEJ8GUiTaXCq307zVw==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/types@3.973.12':
@@ -414,8 +414,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
-  '@napi-rs/wasm-runtime@1.1.4':
-    resolution: {integrity: sha512-3NQNNgA1YSlJb/kMH1ildASP9HW7/7kYnRI2szWJaofaS1hWmbGI4H+d3+22aGzXXN9IJ+n+GiFVcGipJP18ow==}
+  '@napi-rs/wasm-runtime@1.1.5':
+    resolution: {integrity: sha512-AWPoBRJ9tsnVhor4sjO7rkni+7p+2IAEFj6cx06UgP10jkQHqay/36uRV/bFkgrh18D9vb4cr8Q0Pthskgzy+Q==}
     peerDependencies:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
@@ -754,6 +754,9 @@ packages:
 
   any-promise@1.3.0:
     resolution: {integrity: sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==}
+
+  anynum@1.0.0:
+    resolution: {integrity: sha512-xjR9/zBVnUOP6ztMIIgShjsxui80nQUQH+5xJnvrYLs+90bF25/KJqaAi8mk+B4RDtX1Nspi6fmp4YTEts8SfA==}
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -1716,8 +1719,8 @@ packages:
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
 
-  semantic-release@25.0.3:
-    resolution: {integrity: sha512-WRgl5GcypwramYX4HV+eQGzUbD7UUbljVmS+5G1uMwX/wLgYuJAxGeerXJDMO2xshng4+FXqCgyB5QfClV6WjA==}
+  semantic-release@25.0.5:
+    resolution: {integrity: sha512-mn61SUJwtM8ThrWn2WmgLVpwVJeG/hPSupua1psdMoufmwRIPyvRLkRkL0JDXkP67OntlLWUYnBnfVc8EDO3/g==}
     engines: {node: ^22.14.0 || >= 24.10.0}
     hasBin: true
 
@@ -1725,8 +1728,8 @@ packages:
     resolution: {integrity: sha512-hunMQrEy1T6Jr2uEVjrAIqjwWcQTgOAcIM52C8MY1EZSD3DDNft04XzvYKPqjED65bNVVko0YI38nYeEHCX3yw==}
     engines: {node: '>=12'}
 
-  semver@7.8.3:
-    resolution: {integrity: sha512-wnilbGyMxzbY7dNOl7jpKbLSjcfeweJWU5j4+u5qW+6/wuGD9KzIGOyZnQVSBM9E7DtWaaH3CyHkppYrKYoxwg==}
+  semver@7.8.4:
+    resolution: {integrity: sha512-rUCObTnP32Q08R2uuIrt7r9PlEonuTmtuXYcW6s5kjdlj3xbnwe+21yXptAUYcMAABLkYYTtnmzb3w3EDZfueA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1823,8 +1826,8 @@ packages:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
 
-  strnum@2.3.0:
-    resolution: {integrity: sha512-ums3KNd42PGyx5xaoVTO1mjU1bH3NpY4vsrVlnv9PNGqQj8wd7rJ6nEypLrJ7z5vxK5RP0yMLo6J/Gsm62DI5Q==}
+  strnum@2.4.0:
+    resolution: {integrity: sha512-sHrVyWWdq28RbhjuJdZsA1SnGRJV6NiXbk6AXBxDOsgAcA+lmpUZCYjOdLBxkXMwis6RRe7dlZt4VlIWFVzkmg==}
 
   super-regex@1.1.0:
     resolution: {integrity: sha512-WHkws2ZflZe41zj6AolvvmaTrWds/VuyeYr9iPVv/oQeaIoVxMKaushfFWpOGDT+GuBrM/sVqF8KUCYQlSSTdQ==}
@@ -2187,7 +2190,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/core@3.974.19':
+  '@aws-sdk/core@3.974.20':
     dependencies:
       '@aws-sdk/types': 3.973.12
       '@aws-sdk/xml-builder': 3.972.29
@@ -2198,21 +2201,21 @@ snapshots:
       bowser: 2.14.1
       tslib: 2.8.1
 
-  '@aws-sdk/credential-provider-sso@3.972.50':
+  '@aws-sdk/credential-provider-sso@3.972.51':
     dependencies:
-      '@aws-sdk/core': 3.974.19
-      '@aws-sdk/nested-clients': 3.997.18
-      '@aws-sdk/token-providers': 3.1064.0
+      '@aws-sdk/core': 3.974.20
+      '@aws-sdk/nested-clients': 3.997.19
+      '@aws-sdk/token-providers': 3.1065.0
       '@aws-sdk/types': 3.973.12
       '@smithy/core': 3.24.6
       '@smithy/types': 4.14.3
       tslib: 2.8.1
 
-  '@aws-sdk/nested-clients@3.997.18':
+  '@aws-sdk/nested-clients@3.997.19':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
-      '@aws-sdk/core': 3.974.19
+      '@aws-sdk/core': 3.974.20
       '@aws-sdk/signature-v4-multi-region': 3.996.33
       '@aws-sdk/types': 3.973.12
       '@smithy/core': 3.24.6
@@ -2228,10 +2231,10 @@ snapshots:
       '@smithy/types': 4.14.3
       tslib: 2.8.1
 
-  '@aws-sdk/token-providers@3.1064.0':
+  '@aws-sdk/token-providers@3.1065.0':
     dependencies:
-      '@aws-sdk/core': 3.974.19
-      '@aws-sdk/nested-clients': 3.997.18
+      '@aws-sdk/core': 3.974.20
+      '@aws-sdk/nested-clients': 3.997.19
       '@aws-sdk/types': 3.973.12
       '@smithy/core': 3.24.6
       '@smithy/types': 4.14.3
@@ -2305,7 +2308,7 @@ snapshots:
   '@commitlint/is-ignored@20.5.0':
     dependencies:
       '@commitlint/types': 20.5.0
-      semver: 7.8.3
+      semver: 7.8.4
 
   '@commitlint/lint@20.5.3':
     dependencies:
@@ -2379,7 +2382,7 @@ snapshots:
     dependencies:
       '@simple-libs/child-process-utils': 1.0.2
       '@simple-libs/stream-utils': 1.2.0
-      semver: 7.8.3
+      semver: 7.8.4
     optionalDependencies:
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.4.0
@@ -2402,7 +2405,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
-  '@napi-rs/wasm-runtime@1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
+  '@napi-rs/wasm-runtime@1.1.5(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0
@@ -2527,7 +2530,7 @@ snapshots:
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0
-      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@napi-rs/wasm-runtime': 1.1.5(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
     optional: true
 
   '@rolldown/binding-win32-arm64-msvc@1.0.3':
@@ -2540,7 +2543,7 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@semantic-release/commit-analyzer@13.0.1(semantic-release@25.0.3(typescript@5.9.3))':
+  '@semantic-release/commit-analyzer@13.0.1(semantic-release@25.0.5(typescript@5.9.3))':
     dependencies:
       conventional-changelog-angular: 8.3.1
       conventional-changelog-writer: 8.4.0
@@ -2550,13 +2553,13 @@ snapshots:
       import-from-esm: 2.0.0
       lodash-es: 4.18.1
       micromatch: 4.0.8
-      semantic-release: 25.0.3(typescript@5.9.3)
+      semantic-release: 25.0.5(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/github@12.0.8(semantic-release@25.0.3(typescript@5.9.3))':
+  '@semantic-release/github@12.0.8(semantic-release@25.0.5(typescript@5.9.3))':
     dependencies:
       '@octokit/core': 7.0.6
       '@octokit/plugin-paginate-rest': 14.0.0(@octokit/core@7.0.6)
@@ -2572,7 +2575,7 @@ snapshots:
       lodash-es: 4.18.1
       mime: 4.1.0
       p-filter: 4.1.0
-      semantic-release: 25.0.3(typescript@5.9.3)
+      semantic-release: 25.0.5(typescript@5.9.3)
       tinyglobby: 0.2.17
       undici: 7.27.2
       url-join: 5.0.0
@@ -2580,7 +2583,7 @@ snapshots:
       - kerberos
       - supports-color
 
-  '@semantic-release/npm@13.1.5(semantic-release@25.0.3(typescript@5.9.3))':
+  '@semantic-release/npm@13.1.5(semantic-release@25.0.5(typescript@5.9.3))':
     dependencies:
       '@actions/core': 3.0.1
       '@semantic-release/error': 4.0.0
@@ -2595,11 +2598,11 @@ snapshots:
       rc: 1.2.8
       read-pkg: 10.1.0
       registry-auth-token: 5.1.1
-      semantic-release: 25.0.3(typescript@5.9.3)
-      semver: 7.8.3
+      semantic-release: 25.0.5(typescript@5.9.3)
+      semver: 7.8.4
       tempy: 3.2.0
 
-  '@semantic-release/release-notes-generator@14.1.1(semantic-release@25.0.3(typescript@5.9.3))':
+  '@semantic-release/release-notes-generator@14.1.1(semantic-release@25.0.5(typescript@5.9.3))':
     dependencies:
       conventional-changelog-angular: 8.3.1
       conventional-changelog-writer: 8.4.0
@@ -2609,7 +2612,7 @@ snapshots:
       import-from-esm: 2.0.0
       lodash-es: 4.18.1
       read-package-up: 11.0.0
-      semantic-release: 25.0.3(typescript@5.9.3)
+      semantic-release: 25.0.5(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -2762,6 +2765,8 @@ snapshots:
 
   any-promise@1.3.0: {}
 
+  anynum@1.0.0: {}
+
   argparse@2.0.1: {}
 
   argv-formatter@1.0.0: {}
@@ -2874,7 +2879,7 @@ snapshots:
       conventional-commits-filter: 5.0.0
       handlebars: 4.7.9
       meow: 13.2.0
-      semver: 7.8.3
+      semver: 7.8.4
 
   conventional-commits-filter@5.0.0: {}
 
@@ -3011,7 +3016,7 @@ snapshots:
       '@nodable/entities': 2.1.1
       fast-xml-builder: 1.2.0
       path-expression-matcher: 1.5.0
-      strnum: 2.3.0
+      strnum: 2.4.0
 
   fdir@6.5.0(picomatch@4.0.4):
     optionalDependencies:
@@ -3359,13 +3364,13 @@ snapshots:
   normalize-package-data@6.0.2:
     dependencies:
       hosted-git-info: 7.0.2
-      semver: 7.8.3
+      semver: 7.8.4
       validate-npm-package-license: 3.0.4
 
   normalize-package-data@8.0.0:
     dependencies:
       hosted-git-info: 9.0.3
-      semver: 7.8.3
+      semver: 7.8.4
       validate-npm-package-license: 3.0.4
 
   normalize-url@9.0.1: {}
@@ -3581,13 +3586,13 @@ snapshots:
 
   safe-buffer@5.1.2: {}
 
-  semantic-release@25.0.3(typescript@5.9.3):
+  semantic-release@25.0.5(typescript@5.9.3):
     dependencies:
-      '@semantic-release/commit-analyzer': 13.0.1(semantic-release@25.0.3(typescript@5.9.3))
+      '@semantic-release/commit-analyzer': 13.0.1(semantic-release@25.0.5(typescript@5.9.3))
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 12.0.8(semantic-release@25.0.3(typescript@5.9.3))
-      '@semantic-release/npm': 13.1.5(semantic-release@25.0.3(typescript@5.9.3))
-      '@semantic-release/release-notes-generator': 14.1.1(semantic-release@25.0.3(typescript@5.9.3))
+      '@semantic-release/github': 12.0.8(semantic-release@25.0.5(typescript@5.9.3))
+      '@semantic-release/npm': 13.1.5(semantic-release@25.0.5(typescript@5.9.3))
+      '@semantic-release/release-notes-generator': 14.1.1(semantic-release@25.0.5(typescript@5.9.3))
       aggregate-error: 5.0.0
       cosmiconfig: 9.0.2(typescript@5.9.3)
       debug: 4.4.3
@@ -3608,7 +3613,7 @@ snapshots:
       p-reduce: 3.0.0
       read-package-up: 12.0.0
       resolve-from: 5.0.0
-      semver: 7.8.3
+      semver: 7.8.4
       signale: 1.4.0
       yargs: 18.0.0
     transitivePeerDependencies:
@@ -3618,7 +3623,7 @@ snapshots:
 
   semver-regex@4.0.5: {}
 
-  semver@7.8.3: {}
+  semver@7.8.4: {}
 
   shebang-command@2.0.0:
     dependencies:
@@ -3705,7 +3710,9 @@ snapshots:
 
   strip-json-comments@2.0.1: {}
 
-  strnum@2.3.0: {}
+  strnum@2.4.0:
+    dependencies:
+      anynum: 1.0.0
 
   super-regex@1.1.0:
     dependencies:
